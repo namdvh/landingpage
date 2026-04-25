@@ -1,0 +1,45 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#010828"/>
+      <stop offset="1" stop-color="#04114A"/>
+    </linearGradient>
+    <linearGradient id="glassBorder" x1="600" y1="90" x2="600" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0.45"/>
+      <stop offset="0.2" stop-color="white" stop-opacity="0.15"/>
+      <stop offset="0.8" stop-color="white" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="white" stop-opacity="0.45"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="280" y1="480" x2="920" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6FFF00"/>
+      <stop offset="1" stop-color="#53FF7A"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <g opacity="0.35">
+    <circle cx="95" cy="80" r="1.5" fill="#EFF4FF"/>
+    <circle cx="180" cy="200" r="1.2" fill="#EFF4FF"/>
+    <circle cx="290" cy="90" r="1.1" fill="#EFF4FF"/>
+    <circle cx="1040" cy="110" r="1.4" fill="#EFF4FF"/>
+    <circle cx="980" cy="520" r="1.2" fill="#EFF4FF"/>
+    <circle cx="850" cy="70" r="1.1" fill="#EFF4FF"/>
+    <circle cx="1130" cy="420" r="1.5" fill="#EFF4FF"/>
+  </g>
+
+  <rect x="180" y="90" width="840" height="450" rx="32" fill="white" fill-opacity="0.04"/>
+  <rect x="181.4" y="91.4" width="837.2" height="447.2" rx="30.6" stroke="url(#glassBorder)" stroke-width="2.8"/>
+
+  <text x="230" y="250" fill="#EFF4FF" font-size="76" font-weight="700" font-family="Arial, Helvetica, sans-serif" letter-spacing="2">
+    OÀN Vh HOÀI NAM
+  </text>
+  <text x="230" y="310" fill="#EFF4FF" fill-opacity="0.82" font-size="30" font-family="'Courier New', monospace" letter-spacing="3">
+    SPACE OBJECT COLLECTION
+  </text>
+
+  <rect x="230" y="460" width="640" height="10" rx="5" fill="url(#accent)"/>
+  <text x="230" y="430" fill="#6FFF00" font-size="38" font-family="'Brush Script MT', cursive">
+    Go beyond
+  </text>
+</svg>
